@@ -20,7 +20,7 @@ public class Main {
 
         // Create title label
         JLabel title = new JLabel("survey form");
-        title.setFont(new Font("Arial",Font.PLAIN,13));
+        title.setFont(new Font("Arial",Font.BOLD,13));
         title.setBounds(10, 10, 100, 20);
 
         // Create start button
