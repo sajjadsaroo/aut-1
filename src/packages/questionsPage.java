@@ -1,6 +1,7 @@
 package packages;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class questionsPage {
 
@@ -13,6 +14,8 @@ public class questionsPage {
         // Question 1
         JLabel question1 = new JLabel("How attractive do you think the program's user interface is?");
         question1.setBounds(10, 10, 300, 20);
+        question1.setFont(new Font("Arial",Font.PLAIN,13));
+
 
         JRadioButton radio1_1 = new JRadioButton("1");
         radio1_1.setBounds(10, 40, 100, 20);
@@ -35,6 +38,8 @@ public class questionsPage {
         // Question 2
         JLabel question2 = new JLabel("Is it easy for you to access the various features of the program");
         question2.setBounds(10, 90, 300, 20);
+        question2.setFont(new Font("Arial",Font.PLAIN,13));
+
 
 
         JRadioButton radio2_1 = new JRadioButton("1");
@@ -58,6 +63,8 @@ public class questionsPage {
         // Question 3
         JLabel question3 = new JLabel("How simple and user-friendly is the design of the program's pages?");
         question3.setBounds(10, 170, 300, 20);
+        question3.setFont(new Font("Arial",Font.PLAIN,13));
+
 
         JRadioButton radio3_1 = new JRadioButton("1");
         radio3_1.setBounds(10, 200, 100, 20);
@@ -80,6 +87,8 @@ public class questionsPage {
         // Question 4
         JLabel question4 = new JLabel("Are the colors and fonts used in the program appropriate?");
         question4.setBounds(10, 250, 350, 20);
+        question4.setFont(new Font("Arial",Font.PLAIN,13));
+
 
         JRadioButton radio4_1 = new JRadioButton("1");
         radio4_1.setBounds(10, 280, 100, 20);
@@ -102,6 +111,8 @@ public class questionsPage {
         // Next button to go to Page3
         JButton nextButton = new JButton("next page");
         nextButton.setBounds(10, 320, 100, 20);
+        nextButton.setFont(new Font("Arial",Font.PLAIN,13));
+
         nextButton.addActionListener(e -> {
             frame.remove(panel);
             frame.revalidate();
