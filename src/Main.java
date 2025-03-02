@@ -2,10 +2,12 @@ import javax.swing.*;
 import packages.informationPage;
 import java.awt.*;
 
+import java.awt.*;
+
 public class Main {
     public static void main(String[] args) {
         // Create and configure the main frame
-        JFrame frame = new JFrame("فرم نظرسنجی");
+        JFrame frame = new JFrame("survey form");
         frame.setSize(600, 600);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -18,12 +20,14 @@ public class Main {
         panel.setBackground(Color.YELLOW);
 
         // Create title label
-        JLabel title = new JLabel("فرم نظرسنجی", SwingConstants.CENTER);
-        title.setBounds(250, 200, 100, 20);
+        JLabel title = new JLabel("survey form");
+        title.setFont(new Font("Arial",Font.BOLD,13));
+        title.setBounds(10, 10, 100, 20);
 
         // Create start button
-        JButton startButton = new JButton("شروع!");
-        startButton.setBounds(250, 250, 100, 20);
+        JButton startButton = new JButton("start!");
+        startButton.setFont(new Font("Arial",Font.BOLD,13));
+        startButton.setBounds(10, 40, 100, 20);
 
         // Add components to the panel
         panel.setLayout(null);
