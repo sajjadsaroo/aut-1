@@ -24,7 +24,7 @@ public class Main {
         title.setBounds(10, 10, 100, 20);
 
         // Create start button
-        JButton startButton = new JButton("start!");
+        JButton startButton = new JButton("start");
         startButton.setFont(new Font("Arial",Font.BOLD,13));
         startButton.setBounds(10, 40, 100, 20);
 
