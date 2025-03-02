@@ -9,7 +9,9 @@ public class informationPage {
         // Create the main panel
         JPanel panel = new JPanel();
         panel.setBounds(0, 0, 600, 600);
-        panel.setLayout(null);
+        panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
+        panel.setBackground(Color.yellow);
+        panel.add(Box.createRigidArea(new Dimension(10, 10)));
 
         // Name Label and Text Field
         JLabel nameLabel = new JLabel("name");
