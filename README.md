@@ -43,5 +43,5 @@ project-root/
 - Future improvements may include data persistence and enhanced styling.
 
 ## Contributors:
-Sajjad sarookhani
-Amir Pesarakloo
+- Sajjad sarookhani
+- Amir Pesarakloo
